@@ -1,0 +1,39 @@
+# Secrets
+.env
+*.env
+!*.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+python_connector/results/
+
+# Unity (auto-generated)
+Spatial_Awareness/[Ll]ibrary/
+Spatial_Awareness/[Tt]emp/
+Spatial_Awareness/[Oo]bj/
+Spatial_Awareness/[Bb]uild/
+Spatial_Awareness/[Bb]uilds/
+Spatial_Awareness/[Ll]ogs/
+Spatial_Awareness/[Uu]ser[Ss]ettings/
+Spatial_Awareness/[Mm]emoryCaptures/
+Spatial_Awareness/[Rr]ecordings/
+Spatial_Awareness/ProfilerCaptures/
+Spatial_Awareness/Assets/_Recovery/
+Spatial_Awareness/.vs/
+Spatial_Awareness/.vsconfig
+Spatial_Awareness/*.csproj
+Spatial_Awareness/*.sln
+Spatial_Awareness/*.user
+Spatial_Awareness/*.userprefs
+sysinfo.txt
+*.stackdump
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
